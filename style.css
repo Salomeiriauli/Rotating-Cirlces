@@ -1,0 +1,49 @@
+* {
+    background-color: gray;
+}
+.circle1 {
+    background: linear-gradient( black 50%, white 50% ); 
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.circle2 {
+    background: linear-gradient( white 50%, black 50% );
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%; 
+}
+
+.circle3 {
+    background: linear-gradient( black 50%, white 50% );
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%; 
+}
+
+.circle1:hover {
+    transform:rotate(180deg);
+    transition-duration: 2s;
+    animation-duration: 1s;
+}
+
+.circle2:hover {
+    transform:rotate(180deg);
+    transition-duration: 2s;
+}
+
+.circle3:hover {
+    transform:rotate(180deg);
+    transition-duration: 2s;
+}
+
+
+
